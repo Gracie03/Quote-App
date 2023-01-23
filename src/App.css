@@ -1,0 +1,59 @@
+*{
+  margin:0px;
+  box-sizing: border-box;
+  background-color:rgb(213, 223, 230);
+}
+
+.container{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.heading{
+  letter-spacing: 0.5px;
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  margin-top: 10px;
+  color: blue;
+}
+
+.quotes{
+  letter-spacing: 1px;
+  font-style: italic;
+  font-weight: 800;
+  font-size:x-large;
+  margin-top: 30px;
+  color: darkblue;
+}
+
+.author{
+  letter-spacing: 0.5px;
+  font-weight: 1000;
+  font-size: medium;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10px;
+  color: rgb(29, 29, 119);
+}
+
+.btn{
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  font-weight: 550;
+  margin-top: 30px;
+  background-color:blue;
+  color: aqua;
+  border: white;
+}
+
+.btn:hover{
+  width: 180px;
+  border-radius: 50px;
+  background-color:rgb(213, 223, 230);
+  color: blue;
+  border-style:solid;
+  border-color: blue;
+}
