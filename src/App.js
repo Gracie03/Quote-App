@@ -64,8 +64,8 @@ function App() {
   }
   
   return <>
-  <div class="container">
-        <h1 className="heading">Quotes</h1>
+       <div className='quote-container'>
+         <h1 className="heading">Quotes</h1>
         <div className="quotedom">
             <p className="quotes"
              type="quote"
@@ -80,7 +80,7 @@ function App() {
             value={essay.author}>{essay.author}</h4>
         </div>
         <button className="btn" value='submit' onClick={handleclick}>New Quotes</button>
-    </div>
+       </div>
   </>
 }
 

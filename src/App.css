@@ -1,7 +1,30 @@
 *{
   margin:0px;
   box-sizing: border-box;
-  background-color:rgb(213, 223, 230);
+}
+
+.quote-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 760px;
+  background: linear-gradient(90deg,#2cd9ff,#7effb2);
+  background-size: 400% 400%;
+  animation: changes 2.5s infinite ease-in-out;
+}
+
+@keyframes changes {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
 }
 
 .container{
@@ -21,7 +44,7 @@
 .quotes{
   letter-spacing: 1px;
   font-style: italic;
-  font-weight: 800;
+  font-weight: 900;
   font-size:x-large;
   margin-top: 30px;
   color: darkblue;
@@ -41,19 +64,12 @@
   width: 150px;
   border-radius: 5px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: small;
-  font-weight: 550;
+  font-size: 16px;
+  font-weight: 500;
   margin-top: 30px;
   background-color:blue;
-  color: aqua;
+  color: lightblue;
   border: white;
 }
 
-.btn:hover{
-  width: 180px;
-  border-radius: 50px;
-  background-color:rgb(213, 223, 230);
-  color: blue;
-  border-style:solid;
-  border-color: blue;
-}
+
