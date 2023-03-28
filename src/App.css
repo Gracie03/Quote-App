@@ -3,6 +3,12 @@
   box-sizing: border-box;
 }
 
+body{
+  background: linear-gradient(90deg,#2cd9ff,#7effb2);
+  background-size: 400% 400%;
+  animation: changes 2.5s infinite ease-in-out;
+}
+
 .quote-container{
   display: flex;
   flex-direction: column;
@@ -10,9 +16,6 @@
   align-items: center;
   text-align: center;
   height: 800px;
-  background: linear-gradient(90deg,#2cd9ff,#7effb2);
-  background-size: 400% 400%;
-  animation: changes 2.5s infinite ease-in-out;
 }
 
 @keyframes changes {
@@ -38,7 +41,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: underline;
   margin-top: 10px;
-  color: blue;
+  color:darkblue;
 }
 
 .quotes{
@@ -47,7 +50,7 @@
   font-weight: 900;
   font-size:x-large;
   margin-top: 30px;
-  color: darkblue;
+  color: blue;
 }
 
 .author{
@@ -56,7 +59,7 @@
   font-size: medium;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 10px;
-  color: rgb(29, 29, 119);
+  color: blue;
 }
 
 .btn{
@@ -67,9 +70,16 @@
   font-size: 16px;
   font-weight: 500;
   margin-top: 30px;
+  border: 3px solid blue;
+  background: none;
+  color: darkblue;
+  font-weight: 550;
+}
+
+.btn:hover{
   background-color:blue;
   color: lightblue;
-  border: white;
+  
 }
 
 
